@@ -15,5 +15,3 @@ public class TextInput {
         driver.findElement(By.xpath(String.format(locator, label))).sendKeys(text);
     }
 }
-
-v
